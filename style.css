@@ -1,25 +1,25 @@
 @charset "utf-8";
 
 h1{
-    color: black;
+    color: #000000;
 }
 
 h2{
     font-size: 20px;
     color: black;
-    border-left:5px solid darkblue;
+    border-left:5px solid #00008b;
     padding: 3px;
 }
 
 p{
-    color: black;
+    color: #000000;
     padding-left: 5px;
     text-align: justify;
 }
 
 h3{
     font-size: 20px;
-    border-left: 5px solid darkblue;
+    border-left: 5px solid #00008b;
     padding: 3px;
 }
 
@@ -41,6 +41,6 @@ figcaption{
 
 h4{
     font-size: 20px;
-    border-left: 5px solid darkblue;
+    border-left: 5px solid #00008b;
     padding: 3px;
 }
