@@ -1,20 +1,31 @@
 @charset "utf-8";
 
+body{
+    background-color: rgb(246, 255, 253);
+}
+
 h1{
-    color: #000000;
+    color: white;
     font-size: 24px;
-    font-weight: bold;
+    border-style: solid;
+    border-radius: 10px;
+    border-color:  skyblue;
+    border-width: 3px;
+    background-color: lightblue;
+    text-align: center;
+    width: 350px;
+    margin:0 50px;
 }
 
 h2{
     font-size: 20px;
-    border-left:5px solid #00008b;
+    color: black;
+    border-left:5px solid darkblue;
     padding: 3px;
-    font-weight: bold;
 }
 
 p{
-    color: #000000;
+    color: black;
     padding-left: 10px;
     padding-right: 10px;
     text-align: justify;
@@ -23,14 +34,18 @@ p{
 
 h3{
     font-size: 20px;
-    border-left:5px solid #00008b;
+    border-left: 5px solid darkblue;
     padding: 3px;
-    font-weight: bold;
 }
 
 figure{
     float: left;
     margin: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: white;
+    border-color: rgb(246, 255, 253);
+    border-width: 10px;
     text-align: center;
 }
 
@@ -46,7 +61,6 @@ figcaption{
 
 h4{
     font-size: 20px;
-    border-left:5px solid #00008b;
+    border-left: 5px solid darkblue;
     padding: 3px;
-    font-weight: bold;
 }
